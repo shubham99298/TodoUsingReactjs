@@ -1,0 +1,79 @@
+*{
+
+  margin: 0px;
+  padding: 0px;
+}
+
+
+nav{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+}
+.container{
+  background-color: cornsilk;
+  width: 70%;
+  margin: auto;
+  min-height: 100vh;
+  padding: 4vmax  8vmax;
+  box-sizing: border-box;
+}
+
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+}
+.container>h1{
+  text-align: center;
+  margin: 30px;
+  font-size: 2.5rem;
+}
+
+
+
+input,textarea,button
+{
+  padding: 15px;
+  border:1px solid black;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+
+}
+button{
+  border: none;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+.task >div{
+  width: 100%;
+
+}
+.task span {
+  color: black;
+}
+.task button 
+{
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+font-size: 1.6 rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.task button:hover{
+  background-color: red;
+}
