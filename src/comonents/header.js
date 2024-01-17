@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = () => {
-    return<nav >get ready to complete your daily goals</nav>;
+    return<nav > Daily Task to Accomplish !!</nav>;
   
 };
 
